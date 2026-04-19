@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.welilf'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JUnit 5
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+    // Selenide
+    testImplementation 'com.codeborne:selenide:7.14.0'
+}
+
+test {
+    useJUnitPlatform()
+}

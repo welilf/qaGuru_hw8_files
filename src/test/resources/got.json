@@ -1,0 +1,9 @@
+{
+  "title": "Game of Thrones",
+  "seasons": 8,
+  "genres": ["Fantasy", "Drama"],
+  "characters": [
+    {"name": "Jon Snow"},
+    {"name": "Tyrion Lannister"}
+  ]
+}

@@ -14,6 +14,12 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
     // Selenide
     testImplementation 'com.codeborne:selenide:7.14.0'
+    // openCSV
+    testImplementation 'com.opencsv:opencsv:5.12.0'
+    // pdfTest
+    testImplementation 'com.codeborne:pdf-test:1.5.0'
+    // XLS Test
+    testImplementation 'com.codeborne:xls-test:1.4.3'
 }
 
 test {

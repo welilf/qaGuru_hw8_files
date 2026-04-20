@@ -20,6 +20,8 @@ dependencies {
     testImplementation 'com.codeborne:pdf-test:1.5.0'
     // XLS Test
     testImplementation 'com.codeborne:xls-test:1.4.3'
+    // Jackson
+    testImplementation 'com.fasterxml.jackson.core:jackson-databind:2.13.1'
 }
 
 test {
